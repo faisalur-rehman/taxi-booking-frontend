@@ -25,6 +25,7 @@ export default function ListExtras() {
 
   useEffect(() => {
     request();
+    //eslint-disable-next-line
   }, []);
 
   useEffect(() => {
