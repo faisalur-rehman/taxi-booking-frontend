@@ -30,6 +30,9 @@ export default function LoginForm({ onSubmit, isLoading }) {
         <p>
           Don't have an account? <Link to="/register">Sign Up</Link>
         </p>
+        <p>
+          Goto <Link to="/">Home Page</Link>
+        </p>
       </div>
     </AppForm>
   );

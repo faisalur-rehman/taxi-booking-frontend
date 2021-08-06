@@ -38,6 +38,9 @@ export default function SignUpForm({ onSubmit }) {
         <p>
           Already have an account? <Link to="/login">Login</Link>
         </p>
+        <p>
+          Goto <Link to="/">Home Page</Link>
+        </p>
       </div>
     </AppForm>
   );

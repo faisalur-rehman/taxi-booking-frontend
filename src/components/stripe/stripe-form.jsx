@@ -28,7 +28,6 @@ export default function PaymentForm() {
   const [message, setMessage] = useState("");
   const stripe = useStripe();
   const elements = useElements();
-  const history = useHistory();
 
   console.log("cs", localStorage.getItem("cs"));
 
